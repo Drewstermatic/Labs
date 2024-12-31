@@ -1,0 +1,16 @@
+pod/nginx-andrew created (dry run)
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: nginx-andrew
+  name: nginx-andrew
+spec:
+  containers:
+  - image: nginx
+    name: nginx-andrew
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
